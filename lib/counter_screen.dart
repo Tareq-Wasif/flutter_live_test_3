@@ -19,7 +19,7 @@ class _CounterScreenState extends State<CounterScreen> {
               onPressed: () {
                 Navigator.pop(context);
               },
-              child: Text('OK'),
+              child: Text('Close'),
             ),
           ],
         );
@@ -76,7 +76,6 @@ class _CounterScreenState extends State<CounterScreen> {
                 ElevatedButton(
                   onPressed: decrementCount,
                   child: Icon(Icons.remove,size:20,),
-
                 ),
               ],
             ),
